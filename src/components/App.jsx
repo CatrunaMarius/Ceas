@@ -13,9 +13,8 @@ function App() {
     setTime(newtime) 
   }
  
- 
+  setInterval(incres, 1000);
   
-  // console.log(time);
 
   return (
     <div className="container">
